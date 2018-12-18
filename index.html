@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>hamburger bonanza</title>
+    <style>
+      body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .hamburger {
+        width: 150px;
+        height: 150px;
+        cursor: pointer;
+        transform: scaleX(-1);
+      }
+    </style>
+  </head>
+  <body>
+    <svg
+      class="hamburger"
+      xlmns="http://www.w3.org/2000/svg"
+      viewBox="0 0 100 100"
+    >
+      <line
+        class="line line-1"
+        x1="15"
+        x2="85"
+        y1="25"
+        y2="25"
+        fill="none"
+        stroke="black"
+        stroke-width="10"
+        stroke-miterlimit="10"
+      ></line>
+      <line
+        class="line line-2"
+        x1="15"
+        x2="85"
+        y1="50"
+        y2="50"
+        fill="none"
+        stroke="black"
+        stroke-width="10"
+        stroke-miterlimit="10"
+      ></line>
+      <line
+        class="line line-3"
+        x1="15"
+        x2="85"
+        y1="75"
+        y2="75"
+        fill="none"
+        stroke="black"
+        stroke-width="10"
+        stroke-miterlimit="10"
+      ></line>
+    </svg>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="hamburger.js"></script>
+  </body>
+</html>
